@@ -1,6 +1,6 @@
-var targetDiv = document.getElementById("form");
-var btn = document.getElementById("form-butt");
-var sbtn = document.getElementById("sub-butt");
+//var targetDiv = document.getElementById("form");
+//var btn = document.getElementById("form-butt");
+//var sbtn = document.getElementById("sub-butt");
 function onc() {
     targetDiv.style.display = "block";
     btn.style.display="none" ;
@@ -9,8 +9,8 @@ function sonc() {
     targetDiv.style.display = "none";
     btn.style.display="block" ;
 }
-btn.addEventListener('click' , onc) ;
-sbtn.addEventListener('click' , sonc) ;
+//btn.addEventListener('click' , onc) ;
+//sbtn.addEventListener('click' , sonc) ;
 
 var ac = 0 ; 
 

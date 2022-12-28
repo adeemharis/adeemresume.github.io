@@ -138,8 +138,9 @@ body{
     margin: auto ;
     background-color: white;
     position: relative ;
-    height: 100vh ;
+    height: auto ;
     margin-top: 0px ;
+    border-bottom: double ;
 }
 
 #mains p{
@@ -152,6 +153,38 @@ body{
 
 #ed{
     display: none ;
+}
+
+.eds{
+    border-bottom: double ;
+    background-color: white ;
+    display: flex ;
+    height : 40vh ;
+}
+
+.ed-pic{
+    height : 40vh ;
+    width : 50% ;
+}
+
+.ed-info{
+    flex-grow: 1 ;
+    font-family: monospace;
+    text-align: center ;
+    display: inline-block ;
+}
+
+.ed-head{
+    margin-top: 10px !important;
+    font-size: 1rem ;
+    font-weight: bolder ;
+}
+
+.stud{
+    text-align: left ;
+    margin: auto ;
+    margin-top: 10px ;
+    border : 0px ;
 }
 
 #ab{
@@ -174,6 +207,7 @@ body{
 #bottom{
     max-width : 960px;
     margin: auto ;
+    margin-top: 20px ;
 }
 
 #contacts{ 
